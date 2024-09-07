@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #76ac2a;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+
+}
+
+nav ul li {
+    margin: 1%;
+    color: white;
+}
+
+@media (max-width: 767px) {
+
+header{
+    background-color: white;
+}
+}
+.nosotros {
+    background-image: url(./imagenes/rodajas-citricos-hoja-fresca_23-2147931488.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 10%;
+}
+
+
+.servicios {
+    background-image: url(./imagenes/fondoverd.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 10%;
+}
+
+.top {
+    display: flex;
+    padding-left: 20%;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: flex-start;
+}
+
+.caja1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.top2 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: xx-large;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    align-items: flex-start;
+}
+
+.caja2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.top3 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: #76ac2a;
+    font-size: x-large;
+    justify-content: center;
+    padding: 5%;
+}
+
+.aguas1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #76ac2a;
+    font-family: "Roboto", sans-serif;
+    padding: 3%;
+}
+
+.cajaaguas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aguas2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #76ac2a;
+    font-family: "Roboto", sans-serif;
+    padding: 3%;
+}
+
+.cajaaguas2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aguas3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #76ac2a;
+    font-family: "Roboto", sans-serif;
+    padding: 3%;
+}
+
+.cajaaguas3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    background-image: url(./imagenes/vista-superior-botellas-batido-mesa_23-2148527342.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 10%;
+    padding-bottom: 20%;
+    filter: brightness(0.8);
+}
+
+.top4 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 550%;
+    justify-content: center;
+}
+
+.top5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    font-family: "Roboto", sans-serif;
+    font-size: 130%;
+}
+
+.row {
+    display: flex;
+}
+
+footer {
+    background-color: grey;
+}
+footer p{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
